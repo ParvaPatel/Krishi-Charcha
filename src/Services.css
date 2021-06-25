@@ -1,0 +1,167 @@
+
+
+.Heads {
+
+    text-align: center;
+
+}
+.write{
+    height: 20%;
+
+}
+
+.tablediv{
+
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+
+
+.Box{
+    transition: box-shadow .3s;
+    background-color: white;
+    width: 22.5%;
+    height: 40%;
+    align-self: center;
+    text-align: center;
+    position: relative;
+    border:2px solid gray;
+    margin-left: 1.5%;
+    align-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 150%;
+    border-color: white;
+
+}
+
+.fun{
+
+    background-color: #f1f1f1;
+
+}
+
+.fa-ambulance{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+   
+
+}
+
+.fa-thumbs-up{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 0%;
+
+}
+
+.Box:hover {
+    box-shadow: 0 0 100px rgba(33,33,33,.2); 
+  }
+
+  .img1{
+    width: 40px;
+    height: unset;
+    object-fit: cover;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img2{
+    width: 40px;
+    height: unset;
+    object-fit: cover;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img3{
+    width: 40px;
+    height: unset;
+    object-fit: cover;
+    
+    display: flex;
+    justify-content: center;
+}
+.img4{
+    
+    width: 40px;
+    height: unset;
+    object-fit: cover;
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.img5{
+    
+    width: 50px;
+    height: unset;
+    object-fit: cover;
+ 
+    display: flex;
+    justify-content: center;
+}
+
+.img6{
+    width: 40px;
+    height: unset;
+    object-fit: cover;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.img7{
+    width: 47px;
+    height: unset;
+    object-fit: cover;
+
+    display: flex;
+    justify-content: center;
+}
+
+.img8{
+    width: 48px;
+    height: unset;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+}
+
+
+.desc{
+
+     margin-top: 5%;
+
+}
+
+
+@media screen and (max-width: 575px) {
+    .tablediv{
+        height: 1200px;
+        direction: flex;
+        flex-wrap: nowrap;
+        flex-direction: column;
+    }
+
+    .Box{
+        height: 800px;
+        width: 50%;
+        margin-top: 3%;
+        margin-bottom: 1%;
+    }
+
+
+}
+
+

@@ -1,0 +1,23 @@
+.SearchBar{
+    background-color: lightgray;
+    border-radius: 80px;
+    border: none;
+    
+    width: 30%;
+    height: 50px;
+    
+
+}
+
+.Speech {
+    background-color: lightgray;
+    border-radius: 80px;
+    align-self: center;
+    margin-left: 3%;
+    align-content: center;
+    display: inline;
+    width: 80%;
+    vertical-align: middle;
+    text-align: center;
+    border: none;
+}

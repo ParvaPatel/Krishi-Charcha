@@ -1,0 +1,120 @@
+.Major{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid gray;
+    border-radius: 8px;
+  
+}
+
+
+.f{
+    
+   
+    flex: 5%;
+    margin-top:1%;
+    vertical-align: middle;
+
+}
+
+.s {
+    
+    
+    flex: 45%;
+}
+
+
+.t {
+    
+    flex: 50%;
+   
+}
+
+.faBlog {
+
+    padding: 28px;
+    font-size: 15px;
+    width: 20%;
+    
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10%;
+    
+    
+    
+}
+
+.faBLog:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+    margin-top: 2% ;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+    margin-top: 2% ;
+}
+
+.fa-google {
+    background: #dd4b39;
+    color: white;
+    margin-top: 2% ;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin-top: 2% ;
+    margin-bottom: 5%;
+}
+
+.blogImg{
+    width:100%;
+    height:95%;
+    object-fit: cover;
+    margin-top: 1%;
+    
+    
+}
+
+@media screen and (max-width: 575px) {
+    .Major{
+      
+        direction: flex;
+        flex-direction: column;
+    }
+
+    .f{
+    
+        margin-top: 3%;
+        flex: 2%;
+        margin-bottom: 2%;
+    
+    }
+    
+    .s {
+        
+        
+        flex: 45%;
+    }
+    
+    
+    .t {
+        
+        flex: 50%;
+       
+    }
+
+    .fa-linkedin {
+        background: #007bb5;
+        color: white;
+        margin-top: 2% ;
+        margin-bottom:10%;
+    }
+    
+  }
+

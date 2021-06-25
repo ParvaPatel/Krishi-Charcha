@@ -1,0 +1,78 @@
+.outerBox{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: blue;
+}
+
+
+.outProduct{
+    display: flex;
+    flex-wrap: wrap;
+    /* min-width: 40%;
+    width: 1000px; */
+    width: 100%;
+    /* padding: 20px; */
+    background-color: blanchedalmond;
+    justify-content:center;
+}
+.eachProduct{
+    width: 300px;
+    height: fit-content;
+    padding: 5px;
+    background-color: white;
+    border-radius: 3px;
+    border: black 1px solid;
+    margin: 5px; 
+}
+.FilterArea{
+    width: 100%;
+    /* min-width: 300px; */
+    height: fit-content;
+    /* position: sticky; */
+    padding: 5px;
+    background-color: lavender;
+    border-radius: 3px;
+    border: black 1px solid;
+    /* margin: 5px;  */
+}
+.prodImg{
+    width: 100%;
+    height: 300px;
+    border-radius: 3px;
+    border: black 1px solid;
+}
+.eachProduct p{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px 5px 0px 5px;
+}
+.eachProduct span{
+    text-align: left;
+    float: left;
+    margin: 0px 5px 0px 5px;
+}
+.eachProduct button{
+    transition: 0.6s ease;
+    color: #e73c33;
+    border: 1px solid #e73c33;
+    font-size: 1.25em;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 2px;
+    font-weight: bold;
+
+}
+.eachProduct button:hover{
+    
+    background-color: #ca3730;
+    color: white;
+    border: 1px solid black;
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 5px 10px;
+    margin: 5px 5px 5px 5px;
+    border-radius: 2px;
+
+}

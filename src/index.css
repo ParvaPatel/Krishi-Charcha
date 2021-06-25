@@ -1,0 +1,378 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.home{
+  display: block;
+  width: auto;
+  height: 702px;
+  /* background-image: linear-gradient(rgba(0,0,0,0.0),rgba(0, 0, 0, 0)),url(images/homeBackground.jpeg); */
+  background-image: url(images/homeBackground.jpeg);
+  background-repeat: no-repeat;
+  
+
+  /* background-attachment: fixed; */
+  background-size: cover;
+  text-align: center;
+  align-content: center;
+  
+  
+}
+.home h1{
+  font-size: 500%;
+}
+.homeText{
+  display: block;
+  
+  max-width: 800px;
+  height: auto;
+  margin-top: 50px;
+  margin-left: auto;
+    margin-right: auto;
+  align-content: center;
+  text-align: center;
+  /* background-color: aqua; */
+  padding-top: 100px;
+}
+
+.aboutUs {
+  display: block;
+  width: auto;
+  
+  /* background-color: blue; */
+  align-content: center;
+}
+.videoSpace {
+  display: block;
+  max-width:500px ;
+  height: 360px;
+  /* background-color: brown; */
+  margin-top: 50px;
+  
+  align-content: center;
+  /* margin-top: 50px; */
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+
+}
+.aboutUsText{
+  display: block;
+  /* background-color: green; */
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
+  align-content: center;
+  max-width:800px ;
+  text-align: justify;
+  padding: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  
+}
+.aboutUsText h1{
+  font-size: 300%;
+  text-align: center;
+  
+}
+
+.navFix {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+.contactUs {
+  /* display: block; */
+  /* background-color: blue; */
+  /* margin-top: 20px; */
+  padding: 50px 30px;
+  /* position: relative; */
+  /* align-content: center; */
+  height: auto;
+  width: 100%;
+  /* float: left; */
+}
+.contactForm{
+  display: block;
+  /* min-width: 40%; */
+  width: 50%;
+  height: auto;
+  margin: 0px 35px;
+  padding: 50px 10px;
+  /* background-color: aqua; */
+  /* position: relative; */
+  float: left;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+
+}
+.mapSpace {
+  display: block;
+  /* min-width: 70%; */
+  /* width:360px ; */
+  /* max-width: 100%; */
+  width: 45%;
+  height: 360px;
+  /* background-color: brown; */
+   
+  margin-top: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 4px;
+  /* position: relative; */
+  float: left;
+
+}
+.contactText{
+  display: flex;
+  /* background-color: cornflowerblue; */
+  width: 100%;
+  height: auto;
+  float: left;
+  /* padding: 0px 0px 0px 5%; */
+  text-align: center;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.contactBox{
+  display: block;
+  width:100%;
+  background-color:lightgray;
+  float: left;
+  height: auto; 
+  padding: 10px;
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+  text-align:start;
+  border-right: 1px solid solid black;
+}
+.contactBox img{
+  margin: 20px 20px 20px 20px;
+  float: left;
+}
+.contactBox p,a,address{
+  text-decoration: none;
+  color: #f1356d;
+}
+.contactBox a:hover{
+  text-decoration: none;
+  color: #f1356d;
+}
+
+
+
+/* create new blog form */
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+}
+.create h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 30px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #f1356d;
+  color: #fff;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.outerKB{
+  max-width: 700px;
+  height: auto;
+  /* background-color: gray; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+.eachKB{
+  display: block;
+  width: 100%;
+  height: fit-content;
+  /* background-color: lavender; */
+  margin-bottom: 20px;
+}
+.profileImage{
+  width: 15%;
+  /* background-color: white; */
+  display: block;
+  float: left;
+}
+.profileImage img{
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  border: black 1px solid;
+}
+.authorKB {
+  display: block;
+  float: left;
+  width:85%;
+  text-align: left;
+  padding: 10px;
+  /* background-color: lightcoral; */
+}
+.authorKB p{
+  font-weight: bold;
+}
+.authorKB span{
+  font-weight: lighter;
+}
+
+.tagKB {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* background-color: lightgreen; */
+  padding: 20px;
+}
+.tagKB div {
+  width: fit-content;
+  height: 30px;
+  padding: 5px;
+  /* background-color: white; */
+  border-radius: 3px;
+  border: black 1px solid;
+  margin: 5px; 
+}
+
+.issueImage {
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  /* background-color: blue; */
+}
+.issueImage img{
+  
+  width: 100%;
+  height: 100%;
+  border: black 1px solid;
+}
+.titleKB{
+  padding: 5px;
+  margin-top: 5px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+  font-weight: bold;
+}
+.detailKB{
+  padding: 5px;
+  width: 100%;
+  height: 50px;
+  text-align: left;
+  /* text-overflow: ellipsis; */
+  overflow: hidden;
+  /* white-space: nowrap; */
+  /* background-color: blue; */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.utilityKB{
+  width: 100%;
+  display: flex;
+  padding: 5px;
+}
+.utilityKB div{
+  width: 25%;
+}
+.DetailedText{
+  padding: 5px;
+  width: 100%;
+  height: auto;
+  text-align: left;
+}
+
+/* For new blog */
+
+.navNewBlog{
+  width: 100%;
+  align-content: center;
+  
+}
+.navNewBlog button{
+  width: fit-content;
+  margin: 20px;
+}
+
+.imagePreview {
+  max-width: 500px;
+  height: 500px;
+  background-color:#f1356d;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: auto;
+
+}
+
+
+
+/* For new blog : End */
+
+@media screen and (max-width: 420px) {
+  .contactUs, .mapSpace, .contactForm, .create{
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px 0px 20px 0px;
+    
+  }
+}
+@media screen and (max-width: 1500px) {
+  .contactUs, .mapSpace, .contactForm, .create {
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px auto 20px auto;
+    
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactText{
+    display: block;
+    width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 900px) {
+  .contactBox{
+    border-right: 0px solid black;
+  }
+}
